@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+
+
+    <style>
+
+
+
+        .container{
+
+            display: flex;
+            justify-content: center;
+            margin-left: 165px;
+            margin-right: 165px;
+            margin-top: 100px;
+            flex-direction: column;
+        }
+
+        .left-box{
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        .left-box-image{
+
+            width: 730px;
+            height: 300px;
+        }
+        .right-box{
+
+            width: 350px;
+            height: 512px;
+            background-color: black;
+            margin-top: 99px;
+        }
+
+        .header{
+            width: 350px;
+            height: 182px;
+            font-size: 30px;
+            line-height: 56px;
+            font-weight: 800;
+            tab-size: 4;
+            font-family: "Inter";
+            padding-bottom: 50px;
+        }
+        .paragh{
+            width: 350px;
+            height: 182px;
+            align-items: flex-start;
+            font-family: "Inter";
+            font-size: 15px;
+            line-height: 26px;
+            padding-top: 20px;
+            padding-left: 50px;
+        }
+
+        .button-readMore{
+
+            width: 186px;
+            height: 24px;
+            background-color: rgb(241, 93, 81);;
+            list-style-type: none;
+            cursor: pointer;
+            text-align: center;
+            padding-bottom: 12px;
+            padding-top: 12px;
+            margin-left: 0px;
+            padding-left: 0px;
+            
+
+        }
+
+        .button-readMore a{
+
+            text-decoration: none;
+            color: white;
+            font-family: "Inter";
+            font-size: 18px;
+        }
+        .button-readMore:hover{
+
+            background-color: black;
+
+        }
+
+        
+
+            
+        
+    .header-button{
+
+        display: flex;
+      
+    }
+
+    .head-text{
+
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 60px;
+
+    }
+
+    .head-text .head-link a:hover{
+
+        color: lightcoral;
+
+    }
+
+    .head-text .head-link a{
+
+        color: grey;
+        text-decoration: none;
+        font-family: "Inter";
+        font-size: 15px;
+        padding: 20px;
+        
+
+    }
+
+    .head-link{
+
+        display: flex;
+        position: absolute;
+        margin-left: 640px;
+        margin-bottom: 40px;
+    }
+
+    .right-box h1{
+
+        font-family: "Inter";
+        color: rgb(233, 170, 82);;
+        font-size: 40px;
+        margin-left: 30px;
+    }
+
+    .right-box h3{
+
+        color:rgb(255, 253, 250);
+        padding-left: 30px;
+        font-size: 20px;
+        font-family: "Inter";
+    }
+    .right-box p{
+    
+    padding-left: 30px;
+    color: rgb(197, 198, 206);
+    font-size: 15px;
+    font-family: "Inter";
+    padding-top: 5px;
+    }
+    .right-box hr{
+
+        width: 300px;
+    }
+
+    .middle-part{
+
+        display: flex;
+        flex-direction: row;
+    }
+    .bottom-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;  
+        margin-top: 40px;
+
+    }
+
+    .ad1{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .ad2{
+
+        display: flex;
+        flex-direction: row;
+        margin-left: 60px;
+    }
+    .ad3{
+        display: flex;
+        flex-direction: row;
+        margin-left: 80px;
+    }
+    
+
+        .ad1 img{
+
+    width: 100px;
+    height: 127px;
+
+    }
+        .ad2 img{
+
+    width: 100px;
+    height: 127px;
+        }
+
+    .ad3 img{
+
+    width: 100px;
+    height: 127px;
+    }
+
+    .text1 h1{
+
+        color: lightgray;
+        font-family: "Inter";
+        margin-bottom: -8px;
+
+    }
+
+    .text1 h2{
+
+        color: black;
+        font-family: "Inter";
+        font-size: 18px;
+        margin-bottom: -8px;
+        width: 210px;
+
+    }
+
+    .text2 h1{
+
+color: lightgray;
+font-family: "Inter";
+margin-bottom: -8px;
+
+
+}
+
+.text2 h2{
+
+color: black;
+font-family: "Inter";
+font-size: 18px;
+margin-bottom: -8px;
+width: 210px;
+
+
+}
+
+.text3 h1{
+
+color: lightgray;
+font-family: "Inter";
+margin-bottom: -8px;
+
+}
+
+.text3 h2{
+
+color: black;
+font-family: "Inter";
+font-size: 18px;
+margin-bottom: -8px;
+width: 210px;
+
+
+
+}
+
+.text1 p{
+    font-size: 15px;
+    color: rgb(94, 96, 122);
+    line-height: 26px;
+}
+
+.text2 p{
+    font-size: 15px;
+    color: rgb(94, 96, 122);
+    line-height: 26px;
+}
+
+.text3 p{
+    font-size: 15px;
+    color: rgb(94, 96, 122);
+    line-height: 26px;
+}
+
+.text1{
+
+    margin-left: 25px;
+    margin-top: -25px;
+}
+
+.text2{
+
+margin-left: 25px;
+margin-top: -25px;
+
+}
+
+.text3{
+
+margin-left: 25px;
+margin-top: -25px;
+
+
+}
+
+
+    </style>
+</head>
+<body>
+    
+<div class="container">
+    <div class="middle-part">
+    <div class="left-box">
+
+        <div class="head-text"><img src="Tasarım 1/images/logo.svg" alt="W.">
+                <form class="head-link">
+        <a href="ilkOdev.html">Home</a>
+        <a href="#">New</a>
+        <a href="#">Popular</a>
+        <a href="#">Trending</a>
+        <a href="#">Categories</a>
+    </form>
+  
+        </div>
+        <img src="Tasarım 1/images/image-web-3-desktop.jpg" alt="" class="left-box-image">
+        <div class="header-button">
+        <div class="header"><h1>The Bright Future of Web 3.0?</h1></div>
+        <div class="left-box-p-button">
+        <div class="paragh"><p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+        
+            <li class="button-readMore">
+                <a href="#">READ MORE</a>
+            </li>
+        </div>
+    </div>
+</div>
+
+
+    </div>
+
+
+<div class="right-box">
+
+    <h1>New</h1>
+
+    <div class="part1">
+    <h3>Hydrogen VS Electric Cars</h3>
+    <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+    </div>
+    <hr>
+    <div class="part2">
+
+        <h3>The Downsides of AI Artistry</h3>
+
+        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+
+    </div>
+    <hr>
+    <div class="part3">
+
+        <h3>Is VC Funding Drying Up?</h3>
+        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+    </div>
+
+    </div>
+</div>
+
+    <div class="bottom-box">
+
+        <div class="ad1">
+
+            <img src="Tasarım 1/images/image-retro-pcs.jpg" alt="image-retro-pcs">
+            <div class="text1"><h1>01</h1>
+                <h2>Reviving Retro PCs</h2>
+            <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+
+        </div>
+        <div class="ad2">
+
+            <img src="Tasarım 1/images/image-top-laptops.jpg" alt="image-top-laptops">
+            <div class="text2"><h1>02</h1>
+                <h2>Top 10 Laptops of 2022</h2>
+            <p>Our best picks for various needs and budgets.</p>
+            </div>
+
+        </div>
+        <div class="ad3">
+
+            <img src="Tasarım 1/images/image-gaming-growth.jpg" alt="image-gaming-growth">
+            <div class="text3"><h1>03</h1>
+                <h2>The Growth of Gaming</h2>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+
+        </div>
+
+
+
+        
+    </div>
+ 
+
+</div>
+
+</body>
+</html>
